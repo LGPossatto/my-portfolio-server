@@ -9,8 +9,6 @@ const projectSchema = new mongoose.Schema(
     tech: {
       stack: { type: String, required: true },
       tech_list: { type: [String], required: true },
-      primary_tech: { type: String, required: true },
-      secondary_tech: { type: String, required: false },
     },
   },
   { timestamps: true }

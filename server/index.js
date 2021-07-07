@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use("/", express.static(__dirname + "/public", { extensions: ["html"] }));
 app.use((_, res, next) => {
-  res.header("Access-Control-Allow-Origin", "http://127.0.0.1:5500");
+  res.header("Access-Control-Allow-Origin", "*");
   app.use(cors());
   next();
 });
