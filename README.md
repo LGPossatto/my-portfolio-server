@@ -1,4 +1,6 @@
 # About
+*This will not be updated anymore!
+
 This is a NodeJS and Express server with MongoDB as a database, 
 here you can access my portfolio and get information about my projects through the server API. 
 You can find the public folder source files  here https://github.com/LGPossatto/my-portfolio, 
